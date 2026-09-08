@@ -10,9 +10,6 @@ jobs:
     working_directory: ~/chunk-demo
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: npm
-          cache-key: 'npm-cache-{{ checksum "package-lock.json" }}'
       - run:
           name: Lint
           command: npm run lint
