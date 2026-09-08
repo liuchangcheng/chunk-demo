@@ -7,7 +7,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello, chunk-demo!');
+  res.send('Hello, chunk-demo2026!');
 });
 
 module.exports = app;
