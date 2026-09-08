@@ -10,6 +10,7 @@ jobs:
     working_directory: ~/chunk-demo
     steps:
       - checkout
+      - node/install-packages
       - run:
           name: Lint
           command: npm run lint
