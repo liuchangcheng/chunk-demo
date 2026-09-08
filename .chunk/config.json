@@ -2,7 +2,7 @@
   "commands": [
     {
       "name": "install",
-      "run": "npm ci"
+      "run": "npm test"
     },
     {
       "name": "test",
