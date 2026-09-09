@@ -35,6 +35,6 @@ describe('chunk-demo app', () => {
   test('GET / returns greeting', async () => {
     const res = await get('/');
     expect(res.status).toBe(200);
-    expect(res.body).toBe('Hello, chunk-demo!');
+    expect(res.body).toBe('Hello H, chunk-demo202609!');
   });
 });
